@@ -6,7 +6,6 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
-
 body{
     background: var(--by-color) url(../assets/bg.svg) no-repeat top center/cover;
     padding-block: 3.25rem;
@@ -21,6 +20,9 @@ header{
 main{
     width: fit-content;
     margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 h2{
